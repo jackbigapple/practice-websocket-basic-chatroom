@@ -10,6 +10,7 @@ $(document).ready(function () {
   });
 });
 //使用 WebSocket 的網址向 Server 開啟連結
+
 var ws = new WebSocket("ws://localhost:3001");
 
 ws.onopen = () => {
